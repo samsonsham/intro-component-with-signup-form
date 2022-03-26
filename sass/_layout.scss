@@ -6,18 +6,19 @@ body {
   font-family: $ff-primary;
 }
 .container {
-  background-image: url(../images/bg-intro-mobile.png);
-  background-color: $clr-bg-body;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(../images/bg-intro-mobile.png);
+  background-color: $clr-bg-body;
+
   @media (min-width: $breakpoint-md) {
-    background-image: url(../images/bg-intro-desktop.png);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     width: 100%;
     height: 100%;
+    background-image: url(../images/bg-intro-desktop.png);
   }
 }
 header,
