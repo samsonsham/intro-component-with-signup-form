@@ -77,7 +77,7 @@ const reset = (inputElem) => {
 };
 
 const submitForm = () => {
-  alert('Email Address submitted!');
+  alert('Registration form submitted!');
 };
 
 const validate = () => {
