@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Primary Colors
+--------------------------------------*/
+$red: hsl(0, 100%, 74%);
+$green: hsl(154, 59%, 51%);
+$light_green: hsl(154, 59%, 61%);
+$red_trans: hsla(0, 100%, 20%, 0.2);
+$green_trans: hsl(154, 59%, 41%);
+
+/* Accent
+--------------------------------------*/
+$blue: hsl(248, 32%, 49%);
+$light_red_trans: hsla(0, 100%, 20%, 0.2);
+
+/* Neutral Colors
+--------------------------------------*/
+$dark-blue: hsl(249, 10%, 26%);
+$grayish-blue: hsl(246, 25%, 77%);
+$white: hsl(0, 0%, 100%);
+
+/* Colors by element
+--------------------------------------*/
+$clr-bg-body: $red;
+$clr-bg-accent: $blue;
+$clr-bg-form: $white;
+$clr-bg-btn: $green;
+$clr-bg-btn-hover: $light_green;
+$clr-border-input: $grayish-blue;
+$clr-shadow-accent: $light_red_trans;
+$clr-shadow-form: $red_trans;
+$clr-shadow-btn: $green_trans;
+$clr-txt-header-h: $white;
+$clr-txt-header-p: $white;
+$clr-txt-accent: $white;
+$clr-txt-input-placeholder: $grayish-blue;
+$clr-txt-input: $dark-blue;
+$clr-txt-btn: $white;
+$clr-txt-terms: $grayish-blue;
+$clr-txt-terms-lnk: $red;
+$clr-txt-err: $red;
+
+/* Breakpoints
+--------------------------------------*/
+$breakpoint-md: 850px;
+$breakpoint-lg: 1000px;
+
+/* Typography
+--------------------------------------*/
+$font-size: 16px;
+$ff-primary: 'Poppins', sans-serif;
+
+/* Reset
+--------------------------------------*/
+html,
+body,
+main,
+h1,
+h2,
+p,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

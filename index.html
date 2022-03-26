@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./css/style.comp.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ********************  Header  ********************* -->
+      <header>
+        <h1 class="header__heading">Learn to code by watching others</h1>
+        <p class="header__paragraph">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+      <main>
+        <!-- ********************  Accent  ********************* -->
+        <div class="accent">
+          <h2 class="accent__heading">
+            <span class="accent__subheading">Try it free 7 days</span> then
+            $20/mo. thereafter
+          </h2>
+        </div>
+        <!-- ********************  Input Form  ********************* -->
+        <div class="form__container">
+          <form class="reg-form">
+            <div class="input-group">
+              <input
+                class="input__first-name"
+                type="text"
+                placeholder="First Name"
+                required
+              />
+              <p class="errMsgBox input__first-name__error" hidden></p>
+            </div>
+            <div class="input-group">
+              <input
+                class="input__last-name"
+                type="text"
+                placeholder="Last Name"
+                required
+              />
+              <p class="errMsgBox input__last-name__error" hidden></p>
+            </div>
+            <div class="input-group">
+              <input
+                class="input__email"
+                type="email"
+                placeholder="Email Address"
+                required
+              />
+              <p class="errMsgBox input__email__error" hidden></p>
+            </div>
+            <div class="input-group">
+              <input
+                class="input__password"
+                type="password"
+                placeholder="Password"
+                required
+              />
+              <p class="errMsgBox input__password__error" hidden></p>
+            </div>
+
+            <input
+              class="btn__submit"
+              type="submit"
+              value="Claim your free trial"
+            />
+          </form>
+          <p class="term">
+            By clicking the button, you are agreeing to our
+            <a class="term__lnk" href="#">Terms and Services</a>
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
